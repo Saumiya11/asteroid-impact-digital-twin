@@ -210,12 +210,3 @@ if run_button:
 
     st.success("Simulation complete — use downloads to save results. Scroll for optional advanced features.")
 
-# --- Optional advanced: load NASA sample / population overlay ---
-st.markdown("---")
-st.subheader("Advanced / Optional features")
-st.markdown("""
-- If you have population raster or GeoJSON overlays, you can extend the population estimation by spatial intersection.
-- Optionally integrate NASA NEO API for real near-earth objects (requires API key).
-- Map animations and shockwave time-progression can be added with client-side JS/Leaflet plugins.
-""")
-st.write("You can now tweak inputs and re-run. Save CSV/JSON for submission artifacts.")
