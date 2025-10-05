@@ -95,7 +95,6 @@ st.markdown("""
 This app simulates asteroid impacts using empirical physics-based formulas, visualizes damage zones on a map,
 and allows you to test mitigation strategies (kinetic impactor, nuclear deflection, fragmentation).
 **Units:** diameter in meters, velocity in km/s (converted internally to m/s).
-**Note:** Results are approximations for demonstration and decision-support only.
 """)
 
 col1, col2 = st.columns([2, 1])
@@ -209,4 +208,5 @@ if run_button:
         st.bar_chart(pop_df.set_index('zone'))
 
     st.success("Simulation complete — use downloads to save results. Scroll for optional advanced features.")
+
 
