@@ -207,6 +207,7 @@ if run_button:
         })
         st.bar_chart(pop_df.set_index('zone'))
 
-    st.success("Simulation complete — use downloads to save results. Scroll for optional advanced features.")
+    st.success("Simulation complete — use downloads to save results.")
+
 
 
